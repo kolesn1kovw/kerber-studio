@@ -1,0 +1,38 @@
+.wrapper-page {
+   display: flex;
+   flex-direction: column;
+}
+
+.main {
+   flex: 1 1 auto;
+}
+
+._container {
+   max-width: 1180px;
+   padding: 0 15px;
+   margin: 0 auto;
+   box-sizing: content-box;
+}
+
+body {
+   font-family: Muller;
+}
+
+/*--------- Adaptive ---------*/
+@media (max-width: 1281px) {
+   ._container {
+      padding: 0 40px;
+   }
+}
+
+@media (max-width: 769px) {
+   ._container {
+      padding: 0 40px;
+   }
+}
+
+@media (max-width: 479px) {
+   ._container {
+      padding: 0 20px;
+   }
+}

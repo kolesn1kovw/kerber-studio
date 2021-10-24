@@ -1,0 +1,73 @@
+.circular-button__discussion {
+   position: absolute;
+   display: flex;
+   right: 440px;
+   top: 500px;
+   cursor: pointer;
+}
+.circular-button {
+   position: relative;
+   width: 140px;
+   height: 140px;
+   z-index: 5;
+   animation: circularButton 15s linear infinite;
+}
+
+.arrowBtn {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+@keyframes circularButton {
+   100% {
+      transform: rotate(360deg);
+   }
+}
+
+/*--------- Adaptive ---------*/
+
+@media (max-width: 1025px) {
+   .circular-button__discussion {
+      right: 350px;
+      top: 550px;
+   }
+   .circular-button {
+      width: 150px;
+      height: 150px;
+   }
+}
+
+@media (max-width: 769px) {
+   .circular-button__discussion {
+      right: 100px;
+      top: 300px;
+   }
+   .circular-button {
+      width: 140px;
+      height: 140px;
+   }
+}
+
+@media (max-width: 479px) {
+   .circular-button__discussion {
+      right: -10px;
+      top: 300px;
+   }
+   .circular-button {
+      width: 104px;
+      height: 104px;
+   }
+}
+
+@media (max-width: 321px) {
+   .circular-button__discussion {
+      right: -10px;
+      top: 200px;
+   }
+   .circular-button {
+      width: 104px;
+      height: 104px;
+   }
+}

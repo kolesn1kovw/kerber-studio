@@ -1,0 +1,15 @@
+.section__title {
+   font-size: 35px;
+   color: var(--text-color);
+   font-weight: 700;
+   text-transform: uppercase;
+   max-width: 285px;
+   margin-bottom: 40px;
+}
+
+@media (max-width: 479px) {
+   .section__title {
+      font-size: 26px;
+      margin-bottom: 30px;
+   }
+}

@@ -1,0 +1,9 @@
+@import url(_reset.css);
+@import url(_fonts.css);
+@import url(_global.css);
+@import url(_vars.css);
+@import url(header.css);
+@import url(main-page.css);
+@import url(_buttons.css);
+@import url(_section-title.css);
+@import url(_footer.css);
